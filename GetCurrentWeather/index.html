@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Weather </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light "
+    style="justify-content: space-between; background-color: rgb(219, 204, 204);">
+    <a class="navbar-brand" href="#">CityForecast</a>
+    <form class="form-inline my-2 my-lg-0" id="formId">
+      <input class="form-control mr-sm-2" type="text" placeholder="CityName" id="cityName">
+      <button class="btn btn-outline-success my-2 my-sm-0" id="btnSearch">Search</button>
+    </form>
+    </div>
+  </nav>
+  <div class="containerDiv" id="containerID">
+    <div class="forecastContainer">
+      <h1 id="cityNameText">CityName</h1>
+      <div id="weatherState">weatherState</div>
+      <img src="" alt="weatherStatus" id="weatherPic">
+      <div id="mainTemp" class="textPadding">Temperature</div>
+      <div id="feelsLike" class="textPadding">feelsLike</div>
+      <div id="humidity" class="textPadding">Humidity</div>
+      <div id="windSpeed" class="textPadding">windSpeed</div>
+    </div>
+
+    <div class="sevenDayForecast">
+      <h1 id="sevenDayText">Seven day forecast</h1>
+      <div class="days">
+        <span class="forecastDays"> days</span>
+        <img src="" alt="forecastWeatherPic" class="forecastWeatherPic" style="width: 50px; height: 50px;">
+        <span class="forecastTemp">temp</span>
+        <span class="forecastWeatherDecs"> desc</span>
+      </div>
+      <div class="days">
+        <span class="forecastDays"> days</span>
+        <img src="" alt="forecastWeatherPic" class="forecastWeatherPic" style="width: 50px; height: 50px;">
+        <span class="forecastTemp">temp</span>
+        <span class="forecastWeatherDecs"> desc</span>
+      </div>
+      <div class="days">
+        <span class="forecastDays"> days</span>
+        <img src="" alt="forecastWeatherPic" class="forecastWeatherPic" style="width: 50px; height: 50px;">
+        <span class="forecastTemp">temp</span>
+        <span class="forecastWeatherDecs"> desc</span>
+      </div>
+      <div class="days">
+        <span class="forecastDays"> days</span>
+        <img src="" alt="forecastWeatherPic" class="forecastWeatherPic" style="width: 50px; height: 50px;">
+        <span class="forecastTemp">temp</span>
+        <span class="forecastWeatherDecs"> desc</span>
+      </div>
+      <div class="days">
+        <span class="forecastDays"> days</span>
+        <img src="" alt="forecastWeatherPic" class="forecastWeatherPic" style="width: 50px; height: 50px;">
+        <span class="forecastTemp">temp</span>
+        <span class="forecastWeatherDecs"> desc</span>
+      </div>
+      <div class="days">
+        <span class="forecastDays"> days</span>
+        <img src="" alt="forecastWeatherPic" class="forecastWeatherPic" style="width: 50px; height: 50px;">
+        <span class="forecastTemp">temp</span>
+        <span class="forecastWeatherDecs"> desc</span>
+      </div>
+      <div class="days">
+        <span class="forecastDays"> days</span>
+        <img src="" alt="forecastWeatherPic" class="forecastWeatherPic" style="width: 50px; height: 50px;">
+        <span class="forecastTemp">temp</span>
+        <span class="forecastWeatherDecs"> desc</span>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>

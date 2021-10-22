@@ -1,0 +1,35 @@
+.forecastContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: sans-serif;
+  
+}
+
+
+#cityNameText#sevenDayText {
+    font-size: 4rem;
+}
+
+#weatherPic {
+    margin-bottom: 50px;
+}
+
+.containerDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0%;
+    margin-top: 10vh;
+}
+
+.textPadding{
+padding-bottom: 20px;
+}
+
+.sevenDayForecast{
+margin-left: 150px;
+
+}
+
