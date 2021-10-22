@@ -2,7 +2,7 @@ let form = document.querySelector('#btnSearch');
 form.addEventListener('click' , getWeather); 
 
 
-// Indsæt spi nøgle her  under=> 
+// Indsæt API nøgle her  under=> 
 const apiKey = '';  
 
 let cityNameText = document.getElementById('cityNameText'); 
